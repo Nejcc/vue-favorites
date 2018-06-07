@@ -27,7 +27,7 @@
 
            <div class="favorites-holder">
                <ul class="favorites" v-if="showFavorites" transition-group="expand">
-                   <li v-for="fav in myFavs" class="fav-item">
+                   <li v-for="fav in myFavs" class="fav-item" @click="removeFromFavorites">
                        <a href="#" class="fav-link">
                            <img :src="fav.ico" alt="">
                            {{ fav.title }}
@@ -46,6 +46,13 @@
       return {
         showFavorites: true,
         myFavs: []
+      }
+    },
+    methods: {
+      removeFromFavorites: function (index) {
+        if(confirm("Are you sure ?")) {
+          this.myFavs.splice(index, 1);
+        }
       }
     },
     mounted () {
