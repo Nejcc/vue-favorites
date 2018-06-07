@@ -27,54 +27,54 @@
   export default {
     data: function () {
       return {
-        cards: [
+         cards: [
           {
-            title: 'News',
-            text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-            url: 'https://placeholdit.co//i/80x80?bg=777777',
-            ico: '../src/assets/news.svg'
+            'title': 'News',
+            'text': 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+            'url': 'https://placeholdit.co//i/80x80?bg=777777',
+            'ico': '../src/assets/news.svg'
           },
           {
-            title: 'Movies',
-            text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-            url: 'https://placeholdit.co//i/80x80?bg=777777',
-            ico: '../src/assets/movies.svg'
+            'title': 'Movies',
+            'text': 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+            'url': 'https://placeholdit.co//i/80x80?bg=777777',
+            'ico': '../src/assets/movies.svg'
           },
           {
-            title: 'Health',
-            text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-            url: 'https://placeholdit.co//i/80x80?bg=777777',
-            ico: '../src/assets/health.svg'
+            'title': 'Health',
+            'text': 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+            'url': 'https://placeholdit.co//i/80x80?bg=777777',
+            'ico': '../src/assets/health.svg'
           },
           {
-            title: 'Medicine',
-            text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-            url: 'https://placeholdit.co//i/80x80?bg=777777',
-            ico: '../src/assets/medicine.svg'
+            'title': 'Medicine',
+            'text': 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+            'url': 'https://placeholdit.co//i/80x80?bg=777777',
+            'ico': '../src/assets/medicine.svg'
           },
           {
-            title: 'Football',
-            text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-            url: 'https://placeholdit.co//i/80x80?bg=777777',
-            ico: '../src/assets/football.svg'
+            'title': 'Football',
+            'text': 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+            'url': 'https://placeholdit.co//i/80x80?bg=777777',
+            'ico': '../src/assets/football.svg'
           },
           {
-            title: 'Tennis',
-            text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-            url: 'https://placeholdit.co//i/80x80?bg=777777',
-            ico: '../src/assets/tennis.svg'
+            'title': 'Tennis',
+            'text': 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+            'url': 'https://placeholdit.co//i/80x80?bg=777777',
+            'ico': '../src/assets/tennis.svg'
           },
           {
-            title: 'Videos',
-            text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-            url: 'https://placeholdit.co//i/80x80?bg=777777',
-            ico: '../src/assets/video.svg'
+            'title': 'Videos',
+            'text': 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+            'url': 'https://placeholdit.co//i/80x80?bg=777777',
+            'ico': '../src/assets/video.svg'
           },
           {
-            title: 'Technologies',
-            text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-            url: 'https://placeholdit.co//i/80x80?bg=777777',
-            ico: '../src/assets/technology.svg'
+            'title': 'Technologies',
+            'text': 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+            'url': 'https://placeholdit.co//i/80x80?bg=777777',
+            'ico': '../src/assets/technology.svg'
           }
         ],
         myFavorites: []
