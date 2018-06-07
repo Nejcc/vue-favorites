@@ -5,7 +5,7 @@
 > This Vue app shows how we can send information between two non-parent/child components, and how to add the selected items into json.
 > Also you can understand how to get clicked object from array of objects.
 
-[[https://github.com/TTeRzY/Add-Favorite-Cards/tree/master/src/assets/vue-favorites.png|alt=octocat]]
+[[https://github.com/TTeRzY/Add-Favorite-Cards/blob/master/src/assets/vue-favorites.png|alt=octocat]]
 
 ## Build Setup
 
