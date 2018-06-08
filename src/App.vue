@@ -25,11 +25,10 @@ export default {
 <style>
   #app{
     background-color: cadetblue;
-      height: 100vh;
+      height: auto;
       padding-bottom: 150px;
       overflow: hidden;
   }
-
     .app-holder{
         margin-top: 120px;
     }
