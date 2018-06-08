@@ -44,15 +44,14 @@
 <script>
   import EventBus from '../event-bus.js';
   export default {
-    data: function () {
+    data () {
       return {
         showFavorites: true,
         myFavs: []
       }
     },
     methods: {
-      removeFromFavorites: function (fav) {
-        console.log(fav);
+      removeFromFavorites (fav) {
         if(confirm("Are you sure ?")) {
           this.myFavs.splice(this.myFavs.indexOf(fav), 1);
         }

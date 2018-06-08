@@ -62,7 +62,7 @@
 <script>
   import EventBus from '../event-bus.js';
   export default {
-    data: function () {
+    data () {
       return {
         show: false,
         cards: [
@@ -119,7 +119,7 @@
       }
     },
     methods: {
-      addFavorites: function (card) {
+      addFavorites (card) {
         //Check if this object already exist (title is unique key)
         var isExist = (this.myFavorites).some(function (el) {
           return el.title === card.title
