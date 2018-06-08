@@ -4,7 +4,7 @@
       <top-nav-bar></top-nav-bar>
     </div>
      <div class="container">
-       <div class="row">
+       <div class="row app-holder">
          <app-cards></app-cards>
        </div>
      </div>
@@ -24,8 +24,13 @@ export default {
 
 <style>
   #app{
-    background-color: darkgrey;
+    background-color: cadetblue;
       height: 100vh;
+      padding-bottom: 150px;
       overflow: hidden;
   }
+
+    .app-holder{
+        margin-top: 120px;
+    }
 </style>

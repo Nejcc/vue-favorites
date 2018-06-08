@@ -28,7 +28,7 @@
         </nav>
 
            <div class="favorites-holder">
-               <ul class="favorites" v-if="showFavorites">
+               <ul class="favorites" v-if="showFavorites && myFavs.length > 0">
                    <li v-for="fav in myFavs" class="fav-item">
                        <a href="#" class="fav-link">
                            <img :src="fav.ico" alt="Fav Ico" @click="removeFromFavorites(fav)">
@@ -77,6 +77,8 @@
         background-color: #ddd;
         opacity: 0.7;
         width: 100%;
+        position: absolute;
+        left: 0;
     }
 
     .favorites-holder ul{
