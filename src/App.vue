@@ -25,5 +25,7 @@ export default {
 <style>
   #app{
     background-color: darkgrey;
+      height: 100vh;
+      overflow: hidden;
   }
 </style>
