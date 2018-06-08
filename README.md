@@ -7,7 +7,9 @@
 
 > You can add and delete your favorites
 
+![Alt text](https://github.com/TTeRzY/Add-Favorite-Cards/blob/master/src/assets/vue-favorite.png "Vue Favorites App")
 
+![Alt text](https://github.com/TTeRzY/Add-Favorite-Cards/blob/master/src/assets/EditFavorites.png "Vue Favorites App")
 
 ## Build Setup
 
