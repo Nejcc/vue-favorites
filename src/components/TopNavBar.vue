@@ -29,7 +29,7 @@
                <ul class="favorites" v-if="showFavorites">
                    <li v-for="fav in myFavs" class="fav-item">
                        <a href="#" class="fav-link">
-                           <img :src="fav.ico" alt="" @click="removeFromFavorites(fav)">
+                           <img :src="fav.ico" alt="Fav Ico" @click="removeFromFavorites(fav)">
                            {{ fav.title }}
                        </a>
                    </li>
