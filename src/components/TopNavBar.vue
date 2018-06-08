@@ -20,16 +20,16 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav ml-auto">
-                    <a class="nav-link" href="#" @click="showFavorites = !showFavorites">My Favorites</a>
+                    <li><a class="nav-link" href="#" @click="showFavorites = !showFavorites">My Favorites</a></li>
                 </ul>
             </div>
         </nav>
 
            <div class="favorites-holder">
-               <ul class="favorites" v-if="showFavorites" transition-group="expand">
-                   <li v-for="fav in myFavs" class="fav-item" @click="removeFromFavorites">
+               <ul class="favorites" v-if="showFavorites">
+                   <li v-for="fav in myFavs" class="fav-item">
                        <a href="#" class="fav-link">
-                           <img :src="fav.ico" alt="">
+                           <img :src="fav.ico" alt="" @click="removeFromFavorites(fav)">
                            {{ fav.title }}
                        </a>
                    </li>
@@ -49,9 +49,10 @@
       }
     },
     methods: {
-      removeFromFavorites: function (index) {
+      removeFromFavorites: function (fav) {
+        console.log(fav);
         if(confirm("Are you sure ?")) {
-          this.myFavs.splice(index, 1);
+          this.myFavs.splice(this.myFavs.indexOf(fav), 1);
         }
       }
     },
@@ -96,20 +97,5 @@
         height: 35px;
         display: block;
         margin: auto;
-    }
-    /* always present */
-    .expand-transition {
-        transition: all .3s ease;
-        height: 30px;
-        padding: 10px;
-        background-color: #eee;
-        overflow: hidden;
-    }
-    /* .expand-enter defines the starting state for entering */
-    /* .expand-leave defines the ending state for leaving */
-    .expand-enter, .expand-leave {
-        height: 0;
-        padding: 0 10px;
-        opacity: 0;
     }
 </style>
